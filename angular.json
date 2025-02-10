@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "CrudAngular": {
+    "iCountry": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,8 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/CrudAngular/",
-            "outputPath": "dist/crud-angular",
+            "baseHref": "/iCountry/",
+            "outputPath": "dist/iCountry",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "CrudAngular:build:production"
+              "buildTarget": "iCountry:build:production"
             },
             "development": {
-              "buildTarget": "CrudAngular:build:development"
+              "buildTarget": "iCountry:build:development"
             }
           },
           "defaultConfiguration": "development"
